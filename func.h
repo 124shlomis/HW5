@@ -1,5 +1,5 @@
-#ifndef _F
-#define _F
+#ifndef FUNC_H_
+#define FUNC_H_
 #include <map>
 #include <iostream>
 
@@ -23,4 +23,4 @@ class func {
 };
 
 
-#endif
+#endif // FUNC_H_

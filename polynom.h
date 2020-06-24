@@ -1,5 +1,5 @@
-#ifndef _POLY_F
-#define _POLY_F
+#ifndef POLYNOM_H
+#define POLYNOM_H
 
 #include "func.h"
 
@@ -19,5 +19,5 @@ class polynom : public func {
 
 
 
-#endif
+#endif // POLYNOM_H
  

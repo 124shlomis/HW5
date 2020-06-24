@@ -2,8 +2,8 @@
 // Created by Shlomi Shitrit on 24/06/2020.
 //
 
-#ifndef HW5_COMPFUNC_H
-#define HW5_COMPFUNC_H
+#ifndef COMPFUNC_H
+#define COMPFUNC_H
 
 
 class compfunc {
@@ -11,4 +11,4 @@ class compfunc {
 };
 
 
-#endif //HW5_COMPFUNC_H
+#endif //COMPFUNC_H
