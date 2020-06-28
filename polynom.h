@@ -14,11 +14,14 @@ class polynom : public func {
 
     polynom(int order, const int* arr);
     polynom(const polynom& PolyToCopy);
-    ~polynom();
+    ~polynom() override;
     polynom& operator=(const polynom& poly);
     polynom operator+(const polynom& polynom1) const;
     polynom operator-(const polynom& polynom1) const;
     polynom operator*(const polynom& polynom1) const;
+    polynom Derivative() const;
+    polynom Integral() const;
+    void print(ostream& os) const override;
     void printcoefs(ostream&)  const ;
 
   protected:
