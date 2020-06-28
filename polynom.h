@@ -18,6 +18,7 @@ class polynom : public func {
     polynom& operator=(const polynom& poly);
     polynom operator+(const polynom& polynom1) const;
     polynom operator-(const polynom& polynom1) const;
+    polynom operator*(const polynom& polynom1) const;
     void printcoefs(ostream&)  const ;
 
   protected:
