@@ -1,10 +1,13 @@
 #ifndef FUNC_H_
 #define FUNC_H_
+
+/* Includes */
 #include <map>
 #include <iostream>
 
 
-
+/* Namespaces */
+using namespace std;
 using std::map;
 using std::ostream;
 
